@@ -11,6 +11,12 @@ const loadPlant= async(id)=>{
    
    
 }
+const loadAllPlants =async()=>{
+   const res=await fetch (`https://openapi.programming-hero.com/api/plants`);
+    const json=await res.json();
+    displayPlants(json.plants);
+   
+}
 const displayPlants=(plants)=>{
     const plantCardsContainer=document.getElementById("plant-cards-container")
     plantCardsContainer.innerHTML=''
@@ -58,4 +64,7 @@ const displayCategory=(categories)=>{
         categoryContainer.appendChild(div)
     })
 }
-loadCategory()
+
+
+loadCategory();
+loadAllPlants();
