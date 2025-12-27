@@ -185,4 +185,4 @@ const displayCategory=(categories)=>{
 
 
 loadCategory();
-loadAllPlants();
+// loadAllPlants();
