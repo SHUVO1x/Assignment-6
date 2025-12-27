@@ -24,4 +24,4 @@ here it extracted the value of array and object and assignned it . it way more e
 5) Explain template literals in ES6. How are they different from string concatenation?
 ans: 
 we can use template literals using backticks and its way more easier . Earlier we have to use string concatenation like 'we' + number(its a value here ) + " here" \n so much hard work for every space and going to new 
-line but using template literals it has more easy go to new line use variables using the expression ${ } and boom 
+line but using template literals it has more easy go to new line use variables using the expression ${ } and boom .
